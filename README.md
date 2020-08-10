@@ -25,6 +25,14 @@ _Have another more specific idea? You may want to check out our vibrant collecti
 
 1.  **Start developing.**
 
+    *This project does not contain **node_modules** folder, please run*
+
+    ```shell
+    npm install
+    # or
+    npm i
+    ```
+
     Navigate into your new site’s directory and start it up.
 
     ```shell
@@ -47,6 +55,12 @@ A quick look at the top-level files and directories you'll see in a Gatsby proje
     .
     ├── node_modules
     ├── src
+      ├── components
+      ├── images
+      ├── pages
+      ├── sass
+        ├── components
+        ├── views
     ├── .gitignore
     ├── .prettierrc
     ├── gatsby-browser.js
